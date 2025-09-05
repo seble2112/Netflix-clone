@@ -1,0 +1,27 @@
+.header-outer-container{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  background-color: red;
+}
+.header-inner-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links-left {
+display: flex;
+  gap: 30px;  /* spacing between nav items */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
