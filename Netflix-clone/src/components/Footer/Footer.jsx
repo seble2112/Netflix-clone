@@ -6,6 +6,7 @@ import React from 'react'
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -19,6 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-data">
+          
           <ul>
             <li>Audio Description</li>
             <li>Investor Relations</li>

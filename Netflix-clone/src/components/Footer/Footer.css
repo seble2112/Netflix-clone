@@ -12,13 +12,16 @@
     width: 60%;
     /* padding: 20px 0; */
  }
- .footer-data{
+ .footer-data ul{
     background: color blue;
-    width: 12%;
-    display: flex;
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap:  15px 40px;
+   list-style: none;
+   padding: 0;
     justify-content: space-between;
-    margin-left: 10px;
-    color: wheat;
+    margin: 0 0 30px 0;
+    color: white;
 
  }
  .footer-icons{
@@ -28,7 +31,7 @@
  }
  .footer-data{
     display: flex
-    justify-content: space-between;
+    
 
  }
 

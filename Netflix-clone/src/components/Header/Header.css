@@ -10,7 +10,7 @@
   transition: all 0.5s ease;
   z-index: 1;
   transition-timing-function: ease-in;
-  background-color: red;
+  background-color: black;
 }
 .header-inner-container{
     width: 90%;
@@ -20,8 +20,16 @@
 }
 .nav-links-left {
 display: flex;
+align-items: center;
   gap: 30px;  /* spacing between nav items */
   list-style: none;
   margin: 0;
   padding: 0;
 }
+.nav-links-right {
+    display: flex;
+      gap: 20px;  /* spacing between nav items */
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
