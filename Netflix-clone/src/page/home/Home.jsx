@@ -3,14 +3,17 @@
 
 
 import React from "react";
-import Header from "../../components/Header/Header";
+
 import Footer from "../../components/Footer/Footer";
+import Banner from "../../components/Banner/Banner";
+import Header from "../../components/header/Header";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Footer />
+      <Header/>
+      <Banner/>
+     <Footer/>
     </div>
   );
 };
